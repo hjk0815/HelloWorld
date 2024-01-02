@@ -1,0 +1,18 @@
+# 忽略编译生成的文件
+build/
+dist/
+.vs/
+.bin/
+
+
+# 忽略临时文件
+*.tmp
+
+# 忽略日志文件
+*.log
+
+# 忽略敏感信息
+config.ini
+
+# 忽略文件夹下的所有 .txt 文件
+docs/*.txt
